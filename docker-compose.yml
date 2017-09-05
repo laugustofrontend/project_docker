@@ -4,7 +4,7 @@ services:
   nginx:
     build: ./nginx/
     ports:
-      - 8081:80
+      - 8080:80
     volumes:
       - "${PROJECT_ROOT}:/var/www/html:ro"
     networks:
@@ -27,7 +27,7 @@ services:
   mysql:
     image: mysql
     ports:
-      - 9000:3306
+      - 8081:3306
     volumes:
       - db_data:/var/lib/mysql
     environment:
