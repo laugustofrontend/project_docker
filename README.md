@@ -18,7 +18,7 @@
     |   |__ Dockerfile
     |__ www/
     |   |__ html/
-    |__ .env
+    |__ .env.example
     |__ CONTRIBUTING.md
     |__ docker-compose.yml
     |__ docker-start-container.sh
